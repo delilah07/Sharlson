@@ -1,0 +1,241 @@
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width : 1200px){
+/*header-top changes*/
+	.aleft{
+		width:160px;
+	}
+
+/*header-middle changes*/
+	#bens-brand .navbar-brand {
+	    padding: 0;
+	}
+	.btn .badge {
+		left: 85px;
+	}
+
+/*header-menu changes*/
+	.nav > li > a {
+	    padding: 29px 20px 24px 0;
+	}
+	.navbar-form .input-group > .form-control {
+    width: 150px;}
+
+/*footer-top changes*/
+	#email{
+		width: 280px;
+	}
+/*footer-main contact changes*/
+	.list-center{
+		padding-left: 30px;
+	}
+
+}
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width : 992px){
+/*header-top changes*/
+	#h-top{
+		display: inline-block;
+		width:80%;
+	}
+	.aleft{
+		width:180px;
+	}
+
+/*header-middle changes*/
+	.bens{
+		display: inline-block;
+	}
+	.col-md-5:first-child {
+	    width: 38%;
+	}
+	.col-md-5:nth-child(3) {
+	    width: 30%;
+	}
+	.col-md-2{
+		width:32%;
+	}
+	.btn .badge {
+		left: 65px;
+	}
+	.bens .col-md-5:first-child .col-sm-4:first-child{
+		width:42%;
+	}
+	.bens .col-md-5:first-child .col-sm-4:nth-child(2){
+		width:26%;
+	}
+	.bens .col-md-5:first-child .col-sm-4:nth-child(3){
+		width:32%;
+	}
+
+/*header-menu changes*/
+	.header-menu .navbar-nav > li > a{
+		font-size: 12px;
+	}
+	.header-menu .nav > li > a {
+ 	   padding: 20px 27px 0 0;
+	}
+	.header-menu .nav > li:last-child > a {
+ 	   padding: 20px 0 0 0;
+	}
+/*main-part changes*/
+	.foil-balloon{
+		padding-right: 50px;
+		text-align: justify;
+	}
+/*footer-top changes*/
+	#email{
+		width: 220px;
+		padding: 10px 20px;
+		margin-right: 10px;
+	}
+	.footer-top .navbar-inverse img {
+   		margin: 40px 10px 40px 0;
+   	}
+/*footer-main contact changes*/
+	.footer-main .col-md-9 .col-sm-3:first-child{
+		width:20%;
+	}
+	.contact-list img {
+    	margin-top: 0;
+	}
+	.list-center {
+    	padding-left: 20px;
+	}
+	#contacts img {
+        padding-left: 5px;
+    }
+    #logo{
+    	height: auto; 
+   		width: auto; 
+    	max-width: 160px; 
+    	max-height: 160px;
+    }
+
+/*footer-bottom changes*/
+	#footer-b .col-md-4 {
+	    margin: 10px 0;
+	}
+}
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width : 768px){
+	/*header-top changes*/
+	.navbar-inverse .navbar-nav > li{
+		display: inline-block;
+		padding-left: 10px
+	}
+	.navbar-right {
+		display: inline-block;
+		float: right!important;
+	}
+
+/*header-middle changes*/
+	.col-md-5,.col-md-2,.col-md-4{
+		display: inline-block;
+		float: left;
+	}
+	.bens{
+		width:100%;
+	}
+	.col-md-5:first-child .col-md-4:nth-child(2), .col-md-5:first-child .col-md-4:nth-child(3),  .col-md-5:nth-child(3) .col-md-4:first-child, .col-md-5 .col-md-4:nth-child(2){
+		display: none;
+	}
+	.col-md-5:first-child {
+	    width: 35%;
+	}
+	.bens .col-md-5:first-child .col-md-4:first-child{
+	    width: 100%;
+	    padding: 10px 10px 10px 40px;
+	}
+	.col-md-5:nth-child(3) {
+	    width: 30%;
+	    padding: 0 70px;
+	}
+	.col-md-2{
+		width:32%;
+	}
+	.bens{
+		padding: 0;
+	}
+/*header-menu changes*/
+	
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+		float: none;
+	}
+	 .navbar-default .navbar-nav > li > a{
+	 	display: block;
+	 	padding-left: 30px;
+	 }
+	 .header-menu .nav > li:last-child > a{
+	 	padding-left: 30px;
+	 }
+/*footer-top changes*/
+	.footer-top .navbar-inverse img {
+   		margin: 40px 15px;
+   	}
+   	.footer-top .navbar-nav{
+   		float: left;
+   	}
+   	#email{
+		width: 220px;
+	}
+	.footer-top .navbar-inverse h3{
+		font-size: 14px;
+	}
+	.footer-top .navbar-nav {
+    margin: 0;
+
+
+}	
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width : 480px){
+/*header-top changes*/
+#h-top{
+	display: none;
+}
+nav{
+	width: 100%;
+}
+
+/*header-middle changes*/
+	.col-md-5:first-child{
+		display: none;
+	}
+	.col-md-5:nth-child(3) {
+	    padding: 0 0 0 170px;
+	}
+	.col-md-2{
+		padding-left: 30px;
+	}
+
+/*header-menu changes*/
+/*main-part changes*/
+	.foil-balloon{
+		padding-right: 60px;
+		text-align: justify;
+	}
+	#preview {
+        padding: 6px 11px;
+        margin:0;
+        top: 200px;
+	}
+.thumbnail {
+
+    position: relative;
+    border: none;
+    height: 350px;
+}
+#email, #singup {
+    margin: 10px 10px;
+   }
+    .footer-top .navbar-inverse img,.footer-top .navbar-inverse h3 {
+    	margin: 10px 15px;
+    }
+.footer-main .col-xs-9{
+	display: none;
+}
+.footer-main .contact-list{
+	width: 100%
+}
